@@ -41,8 +41,8 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                     <a href={require('../Dudi_biton_CV_en.pdf')} className="button"><i className="fa fa-download"></i>Download Resume (en)</a>
-                     <a href={require('../Dudi_biton_VC_heb.pdf')} className="button"><i className="fa fa-download"></i>Download Resume (heb)</a>
+                     <a href={require('../Dudi_biton_CV_en.pdf')} className="button" dowload><i className="fa fa-download" ></i>Download Resume (en)</a>
+                     <a href={require('../Dudi_biton_VC_heb.pdf')} className="button" dowload><i className="fa fa-download"></i>Download Resume (heb)</a>
                   </p>
                </div>
             </div>
