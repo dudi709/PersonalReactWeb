@@ -34,8 +34,8 @@ class Header extends Component {
 
       <div className="row banner" style={styles.title}>
          <div className="banner-text">
-            <h1 className="responsive-headline">{name}</h1>
-            <h3 className="responsive-headline" style={styles.h3}>SOFTWARE ENGINEERING STUDENT</h3>
+            <h1 className="responsive-headline">I'm {name}.</h1>
+            <h3 className="responsive-headline" >I am a software engineering student (third year) at Sami Shamoon College Of Engineering - Ashdod. Looking for a job!</h3>
             <hr />
             <ul className="social">
                {networks}
@@ -56,16 +56,17 @@ const styles ={
    h3:{
       color: '#CCCCCC',
       borderBottom: "3px solid rgb(212, 212, 212)",
-      width: 375
+      width: "385px",
    },
    nav:{
       backgroundColor: 'rgba(0,0,0,0.6)'
    },
    title:{
+      maxWidth: '1020px',
       display: 'inline-block',
       verticalAlign: 'middle',
       margin: '0 auto',
-      width: '30%',
+      width: '100%',
       paddingBottom: '30px',
       paddingTop:'30px',
       textAlign: 'center',
