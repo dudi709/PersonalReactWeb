@@ -27,7 +27,7 @@ class Contact extends Component {
 
             <div className="ten columns">
 
-                  <p className="lead" style={{color: 'red'}}>Warning: {message}</p>
+                  <p className="lead" style={{color: 'red'}}>{message}</p>
 
             </div>
 
@@ -83,7 +83,8 @@ class Contact extends Component {
 						   {name}<br />
 						   {street} <br />
 						   {city}, {state} {zip}<br />
-						   <span>{phone}</span>
+						   <span>{phone}</span> <br />
+                     <a href="mailto:dudi709@gmail.com">dudi709@gmail.com</a>
 					   </p>
 				   </div>
             </aside>
