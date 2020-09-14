@@ -2,7 +2,7 @@
   "name": "personal-web-reactjs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dudi709.github.io/WebReactJS",
+  "homepage": "https://personalwebreact.herokuapp.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
