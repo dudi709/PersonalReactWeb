@@ -1,0 +1,134 @@
+{
+  "main": {
+    "name":"Dudi Biton",
+    "occupation":"(Your Occupation Here)",
+    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "image":"profilepic.jpg",
+    "bio":"I am a third year software engineering student with a passion for coding. Looking for an opportunity for a first job in the software field.",
+    "contactmessage":"Warning: Contact form not yet configured, please contact me via normal email or phone call for now",
+    "email": "dudi709@gmail.com",
+    "phone": "054-920-7078",
+    "address":{
+      "street":"Metula street",
+      "city":"Ashdod",
+      "state":"Israel",
+      "zip": ""
+    },
+    "website": "http://dudi709.github.io",
+    "resumedownload":"",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/profile.php?id=100000033124653",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/dudi-biton-70014b19a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/dudi709",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"Sami Shamoon College Of Engineering",
+        "degree":"Software Engineering",
+        "graduated":"2018 - today",
+        "description":"Outstanding student with an average of 88"
+      },
+      {
+        "school":"Makif G Ashdod high school",
+        "degree":"Technological theoretical program",
+        "graduated":"2007 - 2013",
+        "description":"Full matriculation certificate in a technological theoretical program"
+      }
+    ],
+    "work":[
+      {
+        "company":"Makif H Ashdod high school",
+        "title":"Practitioner",
+        "years":"2018 - today",
+        "description":"Practicing difficult students in ninth-twelfth grades in all subjects"
+      },
+      {
+        "company":"System labs",
+        "title":"Concrete tester",
+        "years":"2016 - 2017",
+        "description":"Certified concrete tester by the Standards Institute of Israel"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"60%"
+      },
+      {
+        "name":"Illustrator",
+        "level":"55%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"VueJs",
+        "level":"50%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Pokemon search",
+        "category":"Pokemon search app (React-native)",
+        "image":"poke-app.jpg",
+        "url":"https://github.com/dudi709/React-native-pokemonsearch-App"
+      },
+      {
+        "title":"Personal website ",
+        "category":"Personal website using Html5, Css, bootstrap",
+        "image":"personal-web.jpg",
+        "url":"http://dudibi.c1.biz/"
+      },
+      {
+        "title":"Data structures",
+        "category":"LinkedList / Stack (using linkedlist) / Queue (using linkedlist)",
+        "image":"data-structure.jpg",
+        "url":"https://github.com/dudi709/Data-structures"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"Robo-web.jpg",
+        "url":"http://www.timbakerdev.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Dudi is an excellent programmer, with logical thinking and a desire to learn and develop in the field of software.",
+        "user":"Amir Johnpur"
+      }
+    ]
+  }
+}
