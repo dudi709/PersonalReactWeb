@@ -21,7 +21,7 @@ class About extends Component {
       <section id="about">
       <div className="row">
          <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Tim Baker Profile Pic" />
+            <img className="profile-pic" style={styles.profilepic}  src={profilepic} alt="Dudi Biton Profile Pic" />
          </div>
          <div className="nine columns main-col">
             <h2>About Me</h2>
@@ -36,7 +36,7 @@ class About extends Component {
 						         {city} {state}, {zip}
                    </span><br />
 						   <span>{phone}</span><br />
-                     <span>{email}</span>
+                     <span><a href="mailto:dudi709@gmail.com">dudi709@gmail.com</a></span>
 					   </p>
                </div>
                <div className="columns download">
@@ -52,6 +52,12 @@ class About extends Component {
    </section>
     );
   }
+}
+
+const styles ={
+   profilepic:{
+      borderRadius: '25%'
+   }
 }
 
 export default About;

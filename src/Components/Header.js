@@ -21,7 +21,7 @@ class Header extends Component {
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
-         <ul id="nav" className="nav">
+         <ul id="nav" className="nav" style={styles.nav}>
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
 	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
@@ -32,7 +32,7 @@ class Header extends Component {
 
       </nav>
 
-      <div className="row banner">
+      <div className="row banner" style={styles.title}>
          <div className="banner-text">
             <h1 className="responsive-headline">{name}</h1>
             <h3 className="responsive-headline" style={styles.h3}>SOFTWARE ENGINEERING STUDENT</h3>
@@ -57,6 +57,21 @@ const styles ={
       color: '#CCCCCC',
       borderBottom: "3px solid rgb(212, 212, 212)",
       width: 375
+   },
+   nav:{
+      backgroundColor: 'rgba(0,0,0,0.6)'
+   },
+   title:{
+      display: 'inline-block',
+      verticalAlign: 'middle',
+      margin: '0 auto',
+      width: '30%',
+      paddingBottom: '30px',
+      paddingTop:'30px',
+      textAlign: 'center',
+      borderRadius: '2em',
+      backgroundColor: 'rgba(0,0,0,0.6)'
+      
    }
 }
 
