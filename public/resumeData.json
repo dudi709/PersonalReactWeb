@@ -119,7 +119,13 @@
         "title":"RoboFriend Website",
         "category":"Robot search website (react)",
         "image":"Robo-web.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://github.com/dudi709/Web-react.js"
+      },
+      {
+        "title":"Blog",
+        "category":"Public blog (nodeJS + MongoDB)",
+        "image":"blog.jpg",
+        "url":"https://github.com/dudi709/node-js-blog"
       }
     ]
   },
