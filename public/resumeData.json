@@ -4,7 +4,7 @@
     "occupation":"",
     "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     "image":"profilepic.jpg",
-    "bio":"I am a software engineering student, third year. Has a great desire to learn and develop, with a passion for code. Looking for an opportunity for a first job in the software field.",
+    "bio":"AI & Security of AI Researcher at CBG | MS.c student in Software and Information Systems Engineering at BGU",
     "contactmessage":"Warning: Contact form not yet configured, please contact me via normal email or phone call for now",
     "email": "dudi709@gmail.com",
     "phone": "054-920-7078",
@@ -38,13 +38,19 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"Sami Shamoon College Of Engineering",
-        "degree":"Software Engineering",
-        "graduated":"2018 - today",
-        "description":"Outstanding student with an average of 88"
+        "school":"Ben-Gurion University of the Negev",
+        "degree":"(MSc) Software and Information Systems Engineering",
+        "graduated":"2022 - today",
+        "description":""
       },
       {
-        "school":"Makif G Ashdod high school",
+        "school":"Sami Shamoon College Of Engineering",
+        "degree":"(BSc) Software Engineering",
+        "graduated":"2018 - 2022",
+        "description":"Outstanding student with an average of 90"
+      },
+      {
+        "school":"Makif Gimel Ashdod high school",
         "degree":"Technological theoretical program",
         "graduated":"2007 - 2013",
         "description":"Full matriculation certificate in a technological theoretical program"
@@ -52,16 +58,16 @@
     ],
     "work":[
       {
-        "company":"Makif H Ashdod high school",
-        "title":"Practitioner",
-        "years":"2018 - today",
-        "description":"Practicing difficult students in ninth-twelfth grades in all subjects"
+        "company":"CBG - Cyber@Ben Gurion University",
+        "title":"AI & Security of AI Researcher",
+        "years":"2021 - today",
+        "description":"Research assistant and software developer in the field of security in research and cyber laboratories of Ben Gurion University - CBG"
       },
       {
-        "company":"System labs",
-        "title":"Concrete tester",
-        "years":"2016 - 2017",
-        "description":"Certified concrete tester by the Standards Institute of Israel"
+        "company":"Makif Hey Ashdod high school",
+        "title":"Teaching assistant",
+        "years":"2018 - 2021",
+        "description":"Working with ninth-twelfth grade students in all subjects"
       }
     ],
     "skills":[
